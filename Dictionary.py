@@ -12,3 +12,5 @@ print("Dictionary in ascending order: ", sorted_dictionary)
 # Update Dictionary To Descending Order
 sorted_dictionary = dict(sorted(dictionary.items(), key=operator.itemgetter(1),reverse=True))
 print("Dictionary in descending order: ", sorted_dictionary)
+
+
